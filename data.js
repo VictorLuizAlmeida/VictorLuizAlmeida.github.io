@@ -86,7 +86,7 @@ const projectsData = [
         company: "Itau Unibanco",
         keywords: ["SQL", "Python", "Machine Learning", "Random Forest", "SAS Enterprise Guide"],
         description: "Full-cycle ML model to predict customer product adoption likelihood at Itau Unibanco. Increased overdraft utilization from 8% to 13% by prioritizing high-propensity prospects, improving revenue and reducing capital allocation losses.",
-        image: "📊",
+        image: "banking-product-propensity.png",
         star: {
             situation: "Itau Unibanco needed to improve the efficiency of their product marketing campaigns by identifying customers most likely to adopt banking products, particularly overdraft services.",
             task: "Develop a machine learning model to predict customer product adoption propensity, enabling targeted marketing efforts and optimizing capital allocation.",
@@ -100,7 +100,7 @@ const projectsData = [
         company: "Itau Unibanco",
         keywords: ["SQL", "Time Series Modeling", "SARIMAX", "Python", "Cloud"],
         description: "End-to-end institutional cost forecasting system using AWS SageMaker and SARIMAX models. Improved forecasting accuracy by 20% MAE reduction, replacing simple moving averages with sophisticated time series analysis for executive budget decisions.",
-        image: "📈",
+        image: "institutional-cost-forecasting.png",
         star: {
             situation: "The bank relied on simple moving averages for institutional cost forecasting, leading to inaccurate budget predictions that affected executive decision-making.",
             task: "Develop a sophisticated time series forecasting system to provide accurate cost predictions for budget planning and strategic decision-making.",
@@ -114,7 +114,7 @@ const projectsData = [
         company: "Banco Mercantil",
         keywords: ["SQL", "Python", "Machine Learning", "Predictive Analytics"],
         description: "Complete development of ML system to predict customer complaint likelihood, enabling proactive customer treatment and significantly improving satisfaction metrics and complaint rates.",
-        image: "🎯",
+        image: "customer-complaint-prevention.png",
         star: {
             situation: "Banco Mercantil was experiencing high customer complaint rates and needed a way to identify at-risk customers before they filed complaints.",
             task: "Develop a machine learning system to predict customer complaint likelihood, enabling proactive intervention and improved customer satisfaction.",
@@ -128,7 +128,7 @@ const projectsData = [
         company: "Data Insight",
         keywords: ["Python", "Machine Learning", "MLOps", "Docker", "FastAPI"],
         description: "Development and deployment of 30+ ML models for sports betting analytics, successfully used by professional bettors to generate significant profits across multiple markets and betting strategies.",
-        image: "💰",
+        image: "sports-betting-analytics.png",
         star: {
             situation: "Professional bettors needed sophisticated analytics tools to gain an edge in competitive sports betting markets across multiple sports and betting strategies.",
             task: "Develop and deploy a comprehensive ML analytics system with multiple models covering various sports markets and betting strategies.",
@@ -142,7 +142,7 @@ const projectsData = [
         company: "Itau Unibanco",
         keywords: ["Statistics", "A/B Testing", "Price Elasticity", "Revenue Optimization", "Experimental Design"],
         description: "Conducted A/B tests on banking product pricing — including selection of test/control groups, system implementation, and analysis. Used non-parametric tests to evaluate whether financial performance differences were statistically significant, supporting the development of pricing policies.",
-        image: "🧪",
+        image: "pricing-intelligence.png",
         star: {
             situation: "The bank needed to optimize pricing strategies for banking products but lacked data-driven evidence to support pricing policy decisions.",
             task: "Design and implement A/B testing framework to evaluate pricing strategies and determine optimal pricing policies based on statistical evidence.",
@@ -156,7 +156,7 @@ const projectsData = [
         company: "Itau Unibanco",
         keywords: ["Data Engineering", "SQL", "Parallel Computing", "Performance Optimization"],
         description: "Refactored critical ETL pipelines composed of thousands of lines of SQL that frequently failed and took over 3 hours to run. Optimized code and implemented parallel processing, reducing runtime to 30 minutes. Improvements enhanced reliability, reduced maintenance, and accelerated data availability.",
-        image: "⚡",
+        image: "etl-optimization.png",
         star: {
             situation: "Critical ETL workflows containing thousands of lines of SQL were unreliable, frequently failing, and taking over 3 hours to complete, creating bottlenecks in data availability.",
             task: "Refactor and optimize the ETL pipelines to improve reliability, reduce runtime, and minimize maintenance overhead.",

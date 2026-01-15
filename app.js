@@ -28,7 +28,9 @@ function loadProjects() {
         card.onclick = () => openProjectModal(project.id);
 
         card.innerHTML = `
-            <div class="project-image">${project.image}</div>
+            <div class="project-image">
+                <img src="${project.image}" alt="${project.title}" style="width: 100%; height: 100%; object-fit: cover; border-radius: 6px;">
+            </div>
             <h3 class="project-title">${project.title}</h3>
             <div class="project-keywords">
                 ${project.keywords.map(kw => `<span class="project-keyword">${kw}</span>`).join('')}
