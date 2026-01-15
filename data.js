@@ -64,13 +64,13 @@ const experienceData = [
 // Education Data - Edit this to update your education
 const educationData = [
     {
-        degree: "Physics",
+        degree: "Physics (Undergraduate, Teaching Specialization)",
         institution: "University Of Sao Paulo (USP)",
         period: "2015-2020",
         description: "5-year undergraduate program in Physics with Teaching Specialization | Extension Course: Statistics for Data Science - Theory and Practice with Python."
     },
     {
-        degree: "Machine Learning Engineering",
+        degree: "Machine Learning Engineering (Postgraduate)",
         institution: "Federal University of Sao Carlos (UFSCar)",
         period: "2024-2025",
         description: "2-year postgraduate degree focusing on ML deployment, production systems, and engineering practices."
@@ -88,10 +88,10 @@ const projectsData = [
         description: "Full-cycle ML model to predict customer product adoption likelihood at Itau Unibanco. Increased overdraft utilization from 8% to 13% by prioritizing high-propensity prospects, improving revenue and reducing capital allocation losses.",
         image: "banking-product-propensity.png",
         star: {
-            situation: "Itau Unibanco needed to improve the efficiency of their product marketing campaigns by identifying customers most likely to adopt banking products, particularly overdraft services.",
-            task: "Develop a machine learning model to predict customer product adoption propensity, enabling targeted marketing efforts and optimizing capital allocation.",
-            action: "Built a full-cycle ML solution using Random Forest algorithms, processed customer data with SQL and SAS Enterprise Guide, and implemented the model in Python. Created a scoring system to rank customers by adoption likelihood.",
-            result: "Successfully increased overdraft utilization from 8% to 13% by prioritizing high-propensity prospects. This improvement enhanced revenue generation while reducing wasted capital allocation on low-probability customers."
+            situation: "Commercial managers across Brazil were selling overdraft products to business customers, but the bank only generated profit when clients actually used the product after contracting. Many customers signed contracts but never used the overdraft, leading to capital allocation without returns and significant losses.",
+            task: "Develop a data-driven prioritization system for prospecting lists to identify customers with the highest likelihood of actually using the overdraft product after contracting, enabling managers to focus their sales efforts on high-conversion prospects.",
+            action: "Built a comprehensive machine learning model using historical customer data to predict product usage propensity within 3 months of onboarding. Analyzed behavioral patterns, transaction history, and customer profiles to create accurate predictions. Collaborated with commercial teams to design targeted engagement strategies based on the model's insights.",
+            result: "Achieved a 62.5% improvement in product utilization rates, increasing from 8% to 13% within 3 months. This enhancement significantly boosted revenue generation, optimized capital allocation efficiency, and reduced losses from unused contracted products, directly improving the bank's profitability."
         }
     },
     {
@@ -102,10 +102,10 @@ const projectsData = [
         description: "End-to-end institutional cost forecasting system using AWS SageMaker and SARIMAX models. Improved forecasting accuracy by 20% MAE reduction, replacing simple moving averages with sophisticated time series analysis for executive budget decisions.",
         image: "institutional-cost-forecasting.png",
         star: {
-            situation: "The bank relied on simple moving averages for institutional cost forecasting, leading to inaccurate budget predictions that affected executive decision-making.",
-            task: "Develop a sophisticated time series forecasting system to provide accurate cost predictions for budget planning and strategic decision-making.",
-            action: "Designed and implemented an end-to-end forecasting system using AWS SageMaker Studio. Built SARIMAX (Seasonal AutoRegressive Integrated Moving Average with eXogenous variables) models to capture seasonal patterns and trends in institutional costs.",
-            result: "Achieved a 20% reduction in Mean Absolute Error (MAE) compared to previous methods. The system now provides reliable forecasts that support executive budget decisions and strategic planning."
+            situation: "The bank needed to periodically forecast institutional costs to allocate capital correctly, but the responsible team was using only simple techniques like moving averages. This approach frequently led to errors related to seasonal cost behavior patterns, resulting in poor budget planning and capital misallocation.",
+            task: "Develop a comprehensive institutional cost forecasting system to predict various expense categories including rent, electricity, salaries, and other operational costs with higher accuracy and seasonal awareness, replacing the existing rudimentary forecasting methods.",
+            action: "Led the complete data engineering process, organizing and harmonizing data from multiple sources across the organization. Collaborated with another data scientist to develop a sophisticated time series forecasting system based on SARIMAX models. Built a scenario-sensitive calculator that incorporated macroeconomic variables, enabling the finance team to simulate different cost scenarios and their potential impacts.",
+            result: "The new system consistently outperformed the existing forecasting methods across all time series, achieving over 20% improvement in Mean Absolute Error (MAE). The enhanced accuracy and scenario modeling capabilities made the system a core component of executive budget decision-making processes, significantly improving capital allocation efficiency."
         }
     },
     {
@@ -116,10 +116,10 @@ const projectsData = [
         description: "Complete development of ML system to predict customer complaint likelihood, enabling proactive customer treatment and significantly improving satisfaction metrics and complaint rates.",
         image: "customer-complaint-prevention.png",
         star: {
-            situation: "Banco Mercantil was experiencing high customer complaint rates and needed a way to identify at-risk customers before they filed complaints.",
-            task: "Develop a machine learning system to predict customer complaint likelihood, enabling proactive intervention and improved customer satisfaction.",
-            action: "Built a complete ML prediction system from scratch, analyzing customer behavior patterns, transaction history, and interaction data using SQL and Python. Developed models to identify high-risk customers early.",
-            result: "Significantly improved customer satisfaction metrics and reduced complaint rates by enabling proactive treatment of at-risk customers before issues escalated."
+            situation: "Banco Mercantil was experiencing high customer complaint rates that negatively impacted customer satisfaction scores and operational efficiency. The bank needed a proactive approach to identify customers at risk of filing complaints before issues escalated, rather than reacting to complaints after they occurred.",
+            task: "Develop an end-to-end machine learning system to predict customer complaint likelihood, enabling the customer service team to proactively engage with at-risk customers and prevent complaints before they happen.",
+            action: "Built a complete ML prediction system from scratch, analyzing comprehensive customer data including behavioral patterns, transaction history, service interactions, and account activity. Developed predictive models using SQL for data extraction and Python for model development. Created a scoring system that identified high-risk customers and integrated it with the customer service workflow.",
+            result: "The proactive complaint prevention system significantly improved customer satisfaction metrics and reduced complaint rates by enabling early intervention with at-risk customers. This approach transformed the bank's customer service from reactive to proactive, improving overall customer experience and operational efficiency."
         }
     },
     {
@@ -130,10 +130,10 @@ const projectsData = [
         description: "Development and deployment of 30+ ML models for sports betting analytics, successfully used by professional bettors to generate significant profits across multiple markets and betting strategies.",
         image: "sports-betting-analytics.png",
         star: {
-            situation: "Professional bettors needed sophisticated analytics tools to gain an edge in competitive sports betting markets across multiple sports and betting strategies.",
-            task: "Develop and deploy a comprehensive ML analytics system with multiple models covering various sports markets and betting strategies.",
-            action: "Created 30+ specialized machine learning models for different sports and betting scenarios. Deployed the system using Docker, AWS EC2, AWS Lambda, and FastAPI, ensuring scalability and reliability for professional use.",
-            result: "Successfully deployed system used by professional bettors to generate significant profits across multiple markets. The models provided actionable insights that outperformed traditional betting strategies."
+            situation: "Professional bettors operating in competitive sports betting markets needed sophisticated analytics tools to gain a competitive edge. Traditional betting approaches lacked the data-driven insights and predictive capabilities required to consistently generate profits across multiple sports markets and diverse betting strategies.",
+            task: "Develop and deploy a comprehensive machine learning analytics system with multiple specialized models covering various sports markets, betting types, and strategic approaches to provide professional bettors with actionable insights.",
+            action: "Created 30+ specialized machine learning models tailored for different sports, betting markets, and strategic scenarios. Implemented end-to-end model lifecycle management including data pipelines, feature engineering, model training, and deployment. Deployed the system using Docker for containerization, AWS EC2 for compute resources, AWS Lambda for serverless functions, and FastAPI for API endpoints, ensuring scalability, reliability, and low-latency access for professional use.",
+            result: "Successfully deployed the analytics system which was immediately adopted by professional bettors. The models provided actionable insights that consistently outperformed traditional betting strategies, enabling users to generate significant profits across multiple markets and betting strategies. The system's reliability and performance established it as a critical tool for professional betting operations."
         }
     },
     {
@@ -144,10 +144,10 @@ const projectsData = [
         description: "Conducted A/B tests on banking product pricing — including selection of test/control groups, system implementation, and analysis. Used non-parametric tests to evaluate whether financial performance differences were statistically significant, supporting the development of pricing policies.",
         image: "pricing-intelligence.png",
         star: {
-            situation: "The bank needed to optimize pricing strategies for banking products but lacked data-driven evidence to support pricing policy decisions.",
-            task: "Design and implement A/B testing framework to evaluate pricing strategies and determine optimal pricing policies based on statistical evidence.",
-            action: "Designed experimental frameworks for A/B testing, including proper test/control group selection and system implementation. Conducted price elasticity analysis using non-parametric statistical tests to evaluate financial performance differences.",
-            result: "Provided statistically significant evidence supporting pricing policy development. The framework enabled data-driven pricing decisions that optimized revenue while maintaining competitive positioning."
+            situation: "The bank needed to optimize pricing strategies for banking products to maximize revenue while remaining competitive, but lacked data-driven evidence to support pricing policy decisions. Without rigorous experimental validation, pricing changes risked either leaving revenue on the table or losing customers to competitors.",
+            task: "Design and implement a comprehensive A/B testing framework to evaluate different pricing strategies for banking products, including proper experimental design, test/control group selection, and statistical analysis to determine optimal pricing policies.",
+            action: "Designed robust experimental frameworks for A/B testing, including proper randomization, test/control group selection, and sample size calculations. Implemented the testing infrastructure in the bank's systems to ensure accurate data collection. Conducted comprehensive price elasticity analysis using non-parametric statistical tests to evaluate whether financial performance differences between test and control groups were statistically significant, accounting for various confounding factors.",
+            result: "The A/B testing framework provided statistically significant evidence supporting pricing policy development. The rigorous experimental approach enabled data-driven pricing decisions that optimized revenue while maintaining competitive positioning. The framework became a standard tool for evaluating pricing strategies across multiple banking products, leading to more informed and profitable pricing policies."
         }
     },
     {
@@ -158,10 +158,10 @@ const projectsData = [
         description: "Refactored critical ETL pipelines composed of thousands of lines of SQL that frequently failed and took over 3 hours to run. Optimized code and implemented parallel processing, reducing runtime to 30 minutes. Improvements enhanced reliability, reduced maintenance, and accelerated data availability.",
         image: "etl-optimization.png",
         star: {
-            situation: "Critical ETL workflows containing thousands of lines of SQL were unreliable, frequently failing, and taking over 3 hours to complete, creating bottlenecks in data availability.",
-            task: "Refactor and optimize the ETL pipelines to improve reliability, reduce runtime, and minimize maintenance overhead.",
-            action: "Conducted comprehensive code review and refactoring of SQL workflows. Implemented parallel processing techniques to distribute workload across multiple processing units. Optimized queries and data flow to eliminate bottlenecks.",
-            result: "Reduced runtime from over 3 hours to 30 minutes (83% improvement). Enhanced system reliability, significantly reduced failure rates, and accelerated data availability. Maintenance overhead was substantially reduced."
+            situation: "Critical ETL workflows containing thousands of lines of SQL were unreliable, frequently failing, and taking over 3 hours to complete. These failures created significant bottlenecks in data availability, impacting downstream analytics, reporting, and business decision-making processes. The complex, monolithic structure made maintenance difficult and error-prone.",
+            task: "Refactor and optimize the mission-critical ETL pipelines to improve reliability, dramatically reduce runtime, minimize maintenance overhead, and ensure consistent data availability for business operations.",
+            action: "Conducted comprehensive code review and systematic refactoring of SQL workflows, breaking down monolithic processes into modular, maintainable components. Implemented parallel processing techniques to distribute workload across multiple processing units, enabling concurrent execution of independent data transformations. Optimized queries through indexing strategies, query rewriting, and data flow restructuring to eliminate bottlenecks and reduce redundant computations.",
+            result: "Achieved an 83% reduction in runtime, from over 3 hours to 30 minutes. Enhanced system reliability with significantly reduced failure rates, ensuring consistent data availability. The modular architecture substantially reduced maintenance overhead and improved code maintainability. These improvements accelerated data availability for business operations and eliminated the previous bottlenecks."
         }
     }
 ];
