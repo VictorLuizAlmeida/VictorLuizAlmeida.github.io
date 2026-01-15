@@ -28,21 +28,21 @@ const experienceData = [
         title: "Data Analyst Intern",
         company: "Itau Unibanco",
         period: "2017-2019",
-        description: "Daily reporting development using Excel; Process automation with SAS Enterprise Guide for critical pricing workflows; Statistical analysis and PowerPoint presentations; Price elasticity analysis using Python and non-parametric statistical tests.",
+        description: "Daily reporting development using Excel | Process automation with SAS Enterprise Guide for critical pricing workflows | Statistical analysis and PowerPoint presentations | Price elasticity analysis using Python and non-parametric statistical tests.",
         skills: ["Python", "SQL", "SAS", "Microsoft Office", "Statistics"]
     },
     {
         title: "Data Analyst",
         company: "Itau Unibanco",
         period: "2019-2021",
-        description: "Machine Learning model development for product usage propensity prediction to guide commercial decisions; A/B testing audience construction for elasticity analysis; Credit product utilization analysis; Risk-based pricing policy development; Fee collection process automation using SAS Enterprise Guide.",
+        description: "Machine Learning model development for product usage propensity prediction to guide commercial decisions | A/B testing audience construction for elasticity analysis | Credit product utilization analysis | Risk-based pricing policy development | Fee collection process automation using SAS Enterprise Guide.",
         skills: ["Machine Learning", "Python", "SQL", "Automation", "Parallel Computing"]
     },
     {
         title: "Data Scientist",
         company: "Itau Unibanco",
         period: "2022-2024",
-        description: "End-to-end development of institutional global cost forecasting system to guide budget decisions using AWS SageMaker Studio and time series models; Ad hoc competitive analysis studies for Investor Relations regarding credit union competition; Dimensional data modeling for WhatsApp customer service operations.",
+        description: "End-to-end development of institutional global cost forecasting system to guide budget decisions using AWS SageMaker Studio and time series models | Ad hoc competitive analysis studies for Investor Relations regarding credit union competition | Dimensional data modeling for WhatsApp customer service operations.",
         skills: ["Machine Learning", "AWS", "Time Series Modeling", "Clustering"]
     },
     {
@@ -50,13 +50,13 @@ const experienceData = [
         company: "Banco Mercantil",
         period: "2024",
         description: "3-month end-to-end complaint prediction system to identify high-risk customers for proactive treatment, significantly improving satisfaction scores and reducing complaint rates.",
-        skills: ["SQL", "Python", "Snowflake"]
+        skills: ["SQL", "Python", "SnowFlake"]
     },
     {
         title: "Senior Data Scientist",
         company: "Data Insight",
         period: "2024-2025",
-        description: "Predictive system development for high-risk markets and end-to-end model lifecycle management; Blockchain data analysis in Solana ecosystem; Model deployment using Docker, AWS EC2, AWS Lambda, and FastAPI; Monitoring system construction and deployment with Docker, Streamlit, and Ngrok; Neural network and deep learning model development with PyTorch.",
+        description: "Predictive system development for high-risk markets and end-to-end model lifecycle management | Blockchain data analysis in Solana ecosystem | Model deployment using Docker, AWS EC2, AWS Lambda, and FastAPI | Monitoring system construction and deployment with Docker, Streamlit, and Ngrok | Neural network and deep learning model development with PyTorch.",
         skills: ["SQL", "Python", "MLOps", "Cloud", "Machine Learning"]
     }
 ];
@@ -67,13 +67,13 @@ const educationData = [
         degree: "Physics",
         institution: "University Of Sao Paulo (USP)",
         period: "2015-2020",
-        description: "5-year undergraduate program in Physics with Teaching Specialization; Extension Course: Statistics for Data Science - Theory and Practice with Python."
+        description: "5-year undergraduate program in Physics with Teaching Specialization | Extension Course: Statistics for Data Science - Theory and Practice with Python."
     },
     {
         degree: "Machine Learning Engineering",
         institution: "Federal University of Sao Carlos (UFSCar)",
         period: "2024-2025",
-        description: "Graduate program in Machine Learning Engineering."
+        description: "2-year postgraduate degree focusing on ML deployment, production systems, and engineering practices."
     }
 ];
 
